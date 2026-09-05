@@ -41,11 +41,12 @@ python spotify.py [-h] --artist ARTIST --track TRACK [-s]
 
 **Argumentos:**
 
-| Argumento | Descrição |
-|---|---|
-| `--artist` | Nome do artista |
-| `--track` | Nome da faixa |
-| `-s` (opcional) | Salva a playlist gerada na conta do Spotify |
+| Argumento | Obrigatório | Descrição |
+|---|---| --- |
+| `--artist` | ✅ | Nome do artista |
+| `--track` | ✅ |Nome da faixa |
+| `-s` | ❌ | Salva a playlist gerada na conta do Spotify |
+| `-h` | ❌ | Exibe mensagem de ajuda |
 
 ### Exemplos
 
@@ -60,4 +61,4 @@ python spotify.py --artist "SZA" --track "Kill Bill" -s
 ```
 
 ## 📄 Sobre o Projeto
-Projeto desenvolvido como atividade para a disciplina de Sistemas Multimidias.
+Projeto desenvolvido como atividade acadêmica para a disciplina de Sistemas Multimídias, com o objetivo de explorar a integração entre uma aplicação Python e uma API de serviço.
